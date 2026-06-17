@@ -1,9 +1,9 @@
-# Assouan HTTP Sender
+# Assouan Sender
 
 HTTP senders, clients and protocol transports for the A PHP libraries.
 
 ```bash
-composer require assouan/http-sender
+composer require assouan/sender
 ```
 
-Requires PHP 8.4 or later.
+Requires PHP 8.5 or later.
