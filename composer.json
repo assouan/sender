@@ -1,0 +1,20 @@
+{
+    "name": "assouan/http-sender",
+    "description": "HTTP senders, clients and protocol transports for the A PHP libraries.",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.4",
+        "assouan/http-message": "^0.1",
+        "assouan/promise": "^0.1",
+        "assouan/socket": "^0.1"
+    },
+    "suggest": {
+        "ext-curl": "Required for CurlClient."
+    },
+    "autoload": {
+        "psr-4": {
+            "A\\": "src/A/"
+        }
+    }
+}
